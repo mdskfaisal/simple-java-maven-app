@@ -9,10 +9,8 @@ phases:
     commands:
       - echo Build started on `date`
       - mvn test 
-      - pwd
-      - id
-      - hostname
-   
+      - tfenv  remote-list
+      
   post_build:
     commands:
       - echo Build completed on `date`
