@@ -4,6 +4,7 @@ phases:
   install:
     runtime-versions:
       java: corretto8
+      nodejs: 14
   build:
     commands:
       - echo Build started on `date`
